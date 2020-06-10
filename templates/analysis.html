@@ -1,0 +1,143 @@
+{% extends "layout.html" %}
+{% block title %}Analysis Page{% endblock %}
+{% block content %}
+<div class="n">
+    <p><b> How does age affect the impact of covid cases? (Mortality rate, number of deaths)</b></p>
+    <img class="i" src="{{url_for('static',filename='images/b1.PNG')}}" alt="">
+    <p>The spread of coronavirus (COVID-19) in Italy has hit mostly people over 50 years of age. Also, the virus claimed
+        approximately 32 thousand lives since it entered the country between the end of January and the beginning of
+        February 2020. As the chart shows, mortality rate appeared to be higher for the elderly patient. In fact, for
+        people between 80 and 89 years of age, the mortality rate was almost 32 percent. For patients older than 90
+        years this figure was 28.5 percent. Overall, the mortality rate of coronavirus in Italy reached 13.7 percent,
+        higher than that registered in other countries. Italians over the age of 70 represents more than 87% deaths.</p>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <p>The plot below shows the comparison of deaths according to ages as of 24th April and 20th March </p>
+    <img class="i" src="{{url_for('static',filename='images/b2.PNG')}}" alt="">
+    <p>There is a drastic increase in COVID 19 mortality rate between two dates (April 24, 2020 and May 20, 2020 )</p>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <p><b>Distribution of Coronavirus cases in Italy as of May 20, 2020, by age group</b></p>
+    <img class="i" src="{{url_for('static',filename='images/b3.PNG')}}" alt="">
+    <p>The spread of the Coronavirus (COVID-19) in Italy has hit mostly people over 50 years of age. In fact, as the
+        chart shows, 70 percent of individuals infected with the virus was over 50 years old. Only one in four
+        individuals who contracted the virus were between 19 and 50 years old</p>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <p> <b> Does covid have different effects on males and females?</b> </p>
+    <img class="i" src="{{url_for('static',filename='images/b4.PNG')}}" alt="">
+    <p>After the outbreak of the coronavirus (COVID-19) in Italy, many people died after contracting the infection. An
+        in depth study on 30 thousand coronavirus deaths revealed that the fatality rate is much higher for men. In
+        fact, if the mortality rate for female patients was 9.9 percent, the figure for male patients was 17.4 percent,
+        nearly twice as high. The chart shows how this gap was recorded among all age groups. More than 70% of Italy
+        coronavirus deaths have been among men.
+        At least 3,400 people in the Italy have died of devastating disease and it is announced, it had a higher deaths
+        toll than China . But less than 1,000 of them have been women.
+        Men are also more likely to pick up the infection in the first place and account of 60 %
+    </p>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <p><b>Does any type of previous basic symptoms of dieses have any effect on covid patients? </b></p>
+    <img class="i" src="{{url_for('static',filename='images/b5.PNG')}}" alt="">
+    <p>From the above graphs we observe that, the most common symptoms of COVID-19 are fever, dry cough, and tiredness.
+        Other symptoms that are less common and may affect some patients include aches and pains, nasal congestion,
+        headache, conjunctivitis, sore throat, diarrhea, loss of taste or smell or a rash on skin or discoloration of
+        fingers or toes. These symptoms are usually mild and begin gradually. Some people become infected but only have
+        very mild symptoms. Around 1 out of every 5 people who gets COVID-19 becomes seriously ill and develops
+        difficulty breathing. </p><br>
+    <hr><br><br>
+    <p>Distribution of death, recovery and positive cases area wise. Which region in Italy is most affected? </p>
+    <img class="i" src="{{url_for('static',filename='images/b6.PNG')}}" alt="">
+    <p>As we see in the table above that the area mostly hit by the virus was the North particularly the region
+        Lombardia in Italy in all positive cases, recovery and death as of 24th May,2020. </p>
+
+    <img id="r" class="i" src="{{url_for('static',filename='images/b7.PNG')}}" alt="">
+    <br>
+    <img id="s" class="i" src="{{url_for('static',filename='images/b8.PNG')}}" alt="">
+    <p>As the first graph shows total positive cases in different regions of Italy.
+        The second graph shows deaths in different regions of Italy.
+        The third graph shows recovered cases in different regions of Italy.
+    </p><br>
+    <hr><br><br>
+    <p>Following multiple barchart shows relative comparison between the top five cities that are most affected in Italy
+        .</p>
+    <img class="i" src="{{url_for('static',filename='images/b9.PNG')}}" alt=""><br>
+    <hr><br><br>
+    <p><b> Daily deaths and recoveries. </b></p>
+    <img id="q" class="i" src="{{url_for('static',filename='images/b10.PNG')}}" alt=""><br>
+    <p>As we can see the above plot shows the daily recoveries all over Italy from 24th February to 24th May. We can
+        observe that there is abrupt highest number recovered patients on 6th of May. </p>
+    <img id="q" class="i" src="{{url_for('static',filename='images/b11.PNG')}}" alt="">
+    <p>As we can see the above plot shows the daily deaths all over Italy from 24th February to 24th May. This plot show
+        sudden rise in deaths between 15th March to 15th April, 2020 and then the daily deaths are slowly decreasing
+        from April to May.</p>
+    <br>
+    <hr><br><br>
+    <p> Latest mortality rate and recovery rate. Also over all deaths and recovery rate in various regions of Italy.</p>
+    <br>
+    <p>LATEST DETAILS AS OF 24TH MAY
+    <p>The percentage of Confirmation is 10.454591764333458%</p>
+    <p>The percentage of Death is 1.4911544997070905%</p>
+    <p>The percentage of Death after confirmation is (i.e. mortality rate) 14.263153773199106%</p>
+    <p>The percentage of recovery after confirmation is 61.11555830121205%</p>
+    <p>We can say that the recovery rate has been improved tremendously over the period of time.
+    </p>
+    <img class="i" src="{{url_for('static',filename='images/b12.PNG')}}" alt="">
+    <img class="i" src="{{url_for('static',filename='images/b13.PNG')}}" alt="">
+    <p>But as we can see along with recovery rate the death rate is also increasing. (Although not so drastic).Mortality
+        rate is comparatively low. </p>
+    <br>
+    <p>
+        AVERAGE RATES OVER THE TIME PERIOD OF 24TH FEBRUARY TO 24TH MAY</p>
+    <p> Average recovery rate: 35.589716449153244%</p>
+    <p> Average mortality rate: 13.138236885947144%</p>
+
+    <p> Overall, the mortality rate of coronavirus in Italy reached 13.7 percent, higher than that registered in other
+        countries.
+    </p>
+    <p><b>Are patients in intensive care unit and death rate correlated?</b></p>
+    <img class="i" src="{{url_for('static',filename='images/b14.PNG')}}" alt="">
+    <p>Italy has the highest fatalities due to coronavirus. On March 9, Italy extended the lockdown from certain areas
+        to the whole country when it had more than 5000 confirmed coronavirus cases, out of which 733 were in intensive
+        care and 463 were dead because of the virus. As we can see death of patients are started from mid or late Feb
+        but from 15 March count of deaths is increasing monotonously which is terrifying for country to face. Meanwhile,
+        for intensive care unit count of patients is at its peak between 22 March to 12 April and decreasing after 12
+        April.
+        As we can see the that patients in intensive care and deaths are moderately correlated
+        cor (data$IntensiveCarePatients,data$Deaths)=0.6245294 (this is the numeric value of the
+        correlation)
+    </p>
+    <br>
+    <hr><br><br>
+    <p><b>Comparison between various countries and Italy.
+            (according to its deaths and positive patients)</b></p>
+    <img id="r" class="i" src="{{url_for('static',filename='images/b15.PNG')}}" alt="">
+    <p>For Death cases - Italy is most affected country among all we are considering. After Italy, Spain and France had
+        high mortality rate. We can see for Italy its rapidly increasing after 19 March and its monotonously increasing
+        after 23 March for Spain.
+        What is more noticeable is death rate is low in Germany and very low in India compare to other countries. As for
+        now we are considering cases only up to 14th May 2020.
+    </p>
+    <img id="r" class="i" src="{{url_for('static',filename='images/b16.PNG')}}" alt="">
+    <br>
+    <p><b>Observation</b></p>
+    <p>For Confirmed positive cases in 5 countries - India, Italy, Spain, France and Germany
+        As we can see by the start of February 2020 all above mentioned countries had started detecting corona patients.
+        From 15 March to 20 April, all countries had rapid growth of virus that is increasing number of corona patients
+        except India, for India, there’s slow increment.
+        Italy was one of the most affected country but between 27th March to 31st March, it steps back as Spain had
+        sudden rise.
+        As we can see from 8 May, it is getting steadier for all countries meanwhile India had monotonous increment
+        after 2 April 2020 but very low compare to other 4 countries.
+    </p>
+</div>
+
+{% endblock %}
